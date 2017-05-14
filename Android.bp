@@ -5,6 +5,7 @@ cc_defaults {
         "-O3",
         "-DHAVE_HIDDEN",
         "-DZLIB_CONST",
+        "-DUNALIGNED_OK",
         "-Wall",
         "-Werror",
         "-Wno-unused",
